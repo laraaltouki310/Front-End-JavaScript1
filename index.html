@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function lara(){
+        document.getElementById("p").innerHTML="lara malek altouki"
+    };
+</script>
+<body>
+    <p id="p">lara</p>
+    <button onclick="lara()"> click change</button><br><br>
+    <button onclick='document.getElementById("image").src="/midia/pic_bulbon.gif"'> click on</button>
+    <img id="image" src="midia/pic_bulboff.gif" alt="" srcset="">
+    <button onclick='document.getElementById("image").src="/midia/pic_bulboff.gif"'> click off</button><br><br>
+    <button onclick='document.getElementById("image").style="display:none;"'> click none</button>
+    <button onclick='document.getElementById("image").style="display:flex;"'> click flex</button>
+</body>
+</html>
